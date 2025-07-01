@@ -240,7 +240,7 @@ d_ventas[,2]
 
 ################################################################################
 # Instalacion de paquetes
-install.packages("gg´plot2")
+install.packages("ggplot2")
 
 # Cargar la libreria
 library("ggplot2")
