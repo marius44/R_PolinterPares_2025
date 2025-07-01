@@ -3,27 +3,33 @@
 # Poliinterpares 2025
 # LMHS
 
-#### Conociendo R
-
+#### Conociendo R ###
+####
+# Asignacion de valores
 x <- 1
 x
+
+# Que no hacer
 1m <-  5
 %w <-  4
 
-x# Asignacion de valores
-x <- 4
+# Asignacion de valores
+# Diferentes tipos de valores para R
 y <- 2
 w <- 2.3
 z <- 3 + 2i
 alfa  <- "alfa" # los valores con letras van entre comillas
-Beta <- "Y luego sigue gamma" 
+Beta <- "Y luego sigue gamma"
+verdad <- TRUE
 
+# Veamos los valores
 x
 y
 w
 z
 alfa
 Beta
+verdad
 
 
 
@@ -38,7 +44,8 @@ w %/% y
 log10(100)
 sqrt(25)
 
-# Asignación de resultados
+
+# Ver resultados de una operación
 suma <- x + y
 suma
 
@@ -52,57 +59,43 @@ multiplicacion
 raiz <- sqrt(81)
 raiz
 
-
-# Relación 
-# ¿es x igual a y?
-x == y
-
-x != y
-
-x >= y
-
-x >= x
-
-x <= y
-
-equis_mayor <- x <= y
-equis_mayor
-
-# Logicos
-# ! (NOT), & (AND), | (OR)
-y > x & sqrt(81) # y es mayor que x y la raiz de 81
-x
-y
-x != y | w # x es diferente que y o que w
-
-x != x | w # x es diferente que x o que w
-
-
-y > x & sqrt(y) > 3  # y es mayor que x y la raiz de y esto es mayor que 3
-
-
-
-# Expresiones
-data(mtcars)
-plot(mtcars)
-
+##################
+# Funciones
+print(x)
 help(print)
-?plot
+c(1, 2, 3) 
+usted <- readline("Introduce tu nombre: ")
+usted
 
-c(1,2,3)
-nombres <- c("Julia", "Matías", "Mariana", "Luis")# creamos el objeto de nombres
+# Creemos un objeto con lista de nombres
+nombres <- c("Julia", "Matías", "Mariana", "Luis")
 nombres
 
-# creamos el objeto de nombres2 con nombres para la variable 
-nombres2 <- paste(c("x","y"), rep(1:10, each=1), sep="_")
-nombres2   
+# Creemos un objeto equisye
+equisye <- paste(c("x","y"), rep(1:10, each=2), sep="_")
+equisye
+
+
+#########################################################################
+
+
+
+# Cambio de clase
+class(y)
+y
+x + y
+y <- as.character(y)   
+# Checamos la clase del objeto
+class(y)
+y
+x + y # ¿Qué pasó aquí? 
 
 ###############################################################################
 # Objetos
 # Muestra todos los obejtos en en el ambiente
 objects()
 
-# Muestra la clase de objeto
+# Muestra la clase de los objetos
 class(alfa)
 class(equis_mayor)
 equis_mayor
@@ -110,7 +103,6 @@ class(Multiplicacion)
 class(nombres)
 class(w)
 class(z)
-class()
 
 # Cambio de clase
 # as.numeric(), as.integer(), as.character(), as.logical() y as.complex()
@@ -118,7 +110,7 @@ class()
 class(y)
 y
 y <- as.character(y)   
-# miramos la clase de este objeto
+# Vemos la clase de este objeto
 class(y)
 y
 
@@ -131,15 +123,30 @@ y
 
 x + y
 
-#
-# Veamos nombres.
+##############################################
+# Veamos el objeto nombres. 
 nombres
 class(nombres)
+
 # creamos el objeto sexo 
-sexo <- factor(c("Femenino", "Masculino", "Femenino", 
-                 "Masculino"))
+sexo <- c("Femenino", "Masculino", "Femenino", 
+                 "Masculino")
+sexo
+# Revisamos la estructura del objeto sexo
+str(sexo)
+
 # Revisemos la clase
 class(sexo)
+
+# Modifiquemos eso
+sexo <- as.factor(sexo)
+
+# Revisamos la nueva estructura del objeto sexo
+str(sexo)
+
+# Revisemos la nueva clase del objeto sexo
+class(sexo)
+
 
 # Niveles del objeto de clase factor
 levels(sexo)
@@ -147,31 +154,36 @@ levels(sexo)
 
 ####
 # Hagamos una lista
-# creamos el objeto l1 de clase lista
-l1 <- list(equis_mayor, y, nombres2)
-l1
+# creamos el objeto lista1 de clase lista
+lista1 <- list(usted, y, nombres)
+lista1
 
-# consultando el tercer slot del objeto l1
-l1[3]
+# consultando el tercer slot del objeto lista1
+lista1[3]
 
-# poniéndole el nombre a los slots del objeto l1
-names(l1) <- c("objeto_equis_mayor", "objeto_y", "objeto_nombres")
+# poniéndole el nombre a los slots del objeto lista1
+names(lista1) <- c("objeto_usted", "objeto_y", "objeto_nombres")
 
 #Esto permite llamar a un slot tanto por su índice o por su nombre usando el símbolo $.
-l1$objeto_nombres
-l1[3]
-l1$objeto_nombres
+lista1$objeto_nombres
+lista1[3]
+lista1$objeto_nombres
+lista1$objeto_y
+lista1$objeto_usted
 
+###################
+### Matrices
 # Hagamos una matriz  dos filas por tres columnas ordenado por columnas
-m1 <- matrix( c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3, byrow = FALSE)
-m1
-class(m1)
+matriz1 <- matrix( c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3, byrow = FALSE)
+matriz1
+class(matriz1)
+View(matriz1)
 
 # Hagamos una matriz  dos filas por tres columnas ordenado por filas
-ma <- matrix( c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3, byrow = TRUE)
-ma
-class(ma)
-
+matriz2 <- matrix( c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3, byrow = TRUE)
+matriz2
+class(matriz2)
+View(matriz2)
 ###############################################################################
 # Haremos un objeto mas complejo
 # primero crearemos un vector llamado ventas_1 con los números 2 , 3 , 4.5 y 5 
@@ -190,16 +202,17 @@ v3
 
 # Matriz
 # creando una matriz uniendo los dos vectores como columnas
-m2 <- cbind(v2, v3)
-m2
+matriz2 <- cbind(v2, v3)
+matriz2
 
-class(m2)
-
+class(matriz2)
+View(matriz2)
 # Tambien hay arrays
 # creando un array de dos matrices cada una con 3 filas y 3 columnas
-a1 <- array(c(5, 9, 3, 10, 11, 12, 13, 14, 15),dim = c(3,3,2))
-a1
-class(a1)
+array1 <- array(c(5, 9, 3, 10, 11, 12, 13, 14, 15),dim = c(3,3,2))
+array1
+class(array1)
+array1
 
 # Data.frames
 # creando un data frame 
@@ -209,10 +222,10 @@ class(d_ventas)
 str(d_ventas)
 
 # Cambiemos nombres
-# cambiando el nombre d ela preimera variable
+# cambiando el nombre d ela primera variable
 names(d_ventas)[1] <- "ventas"
 str(d_ventas)
-
+d_ventas
 # Accesando a variables del data frame
 # constatando la clase de cada variable en el data frame
 class(d_ventas$sexo)
@@ -230,4 +243,3 @@ d_ventas[2,]
 # extrayendo la tercera columna
 d_ventas[,3]
 d_ventas[,2]
-
