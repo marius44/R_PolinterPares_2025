@@ -3,8 +3,9 @@
 # Poliinterpares 2025
 # LMHS
 
-#### Conociendo R ###
-####
+################################################################################
+# Conociendo R 
+
 # Asignacion de valores
 x <- 1
 x
@@ -31,8 +32,6 @@ alfa
 Beta
 verdad
 
-
-
 # Operaciones matematicas basicas
 x + y
 w - y
@@ -43,7 +42,6 @@ w %% y
 w %/% y
 log10(100)
 sqrt(25)
-
 
 # Ver resultados de una operación
 suma <- x + y
@@ -59,7 +57,7 @@ multiplicacion
 raiz <- sqrt(81)
 raiz
 
-##################
+################################################################################
 # Funciones
 print(x)
 help(print)
@@ -75,11 +73,7 @@ nombres
 equisye <- paste(c("x","y"), rep(1:10, each=2), sep="_")
 equisye
 
-
-#########################################################################
-
-
-
+################################################################################
 # Cambio de clase
 class(y)
 y
@@ -90,7 +84,7 @@ class(y)
 y
 x + y # ¿Qué pasó aquí? 
 
-###############################################################################
+################################################################################
 # Objetos
 # Muestra todos los obejtos en en el ambiente
 objects()
@@ -123,7 +117,7 @@ y
 
 x + y
 
-##############################################
+################################################################################
 # Veamos el objeto nombres. 
 nombres
 class(nombres)
@@ -171,7 +165,7 @@ lista1$objeto_nombres
 lista1$objeto_y
 lista1$objeto_usted
 
-###################
+################################################################################
 ### Matrices
 # Hagamos una matriz  dos filas por tres columnas ordenado por columnas
 matriz1 <- matrix( c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3, byrow = FALSE)
@@ -184,7 +178,7 @@ matriz2 <- matrix( c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3, byrow = TRUE)
 matriz2
 class(matriz2)
 View(matriz2)
-###############################################################################
+################################################################################
 # Haremos un objeto mas complejo
 # primero crearemos un vector llamado ventas_1 con los números 2 , 3 , 4.5 y 5 
 # Estos numeros representan millones de pesos
@@ -243,3 +237,11 @@ d_ventas[2,]
 # extrayendo la tercera columna
 d_ventas[,3]
 d_ventas[,2]
+
+################################################################################
+# Instalacion de paquetes
+install.packages("gg´plot2")
+
+# Cargar la libreria
+library("ggplot2")
+
