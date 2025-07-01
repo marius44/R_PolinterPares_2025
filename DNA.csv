@@ -1,0 +1,116 @@
+Analista,Kit usado,Organismo,Tipo_de_muestra,Muestra,Concentracion_ng_uL,A260_A280,A260_A230
+Efrain,Zymobiomics,Raton,Heces,H1 ,64,1.81,1.73
+Efrain,Zymobiomics,Raton,Heces,H2,109,1.81,1.76
+Efrain,Zymobiomics,Raton,Heces,H3,54,1.89,2.03
+Efrain,Zymobiomics,Raton,Heces,H4,112,1.71,1.62
+Efrain,Zymobiomics,Raton,Heces,H5,23,1.8,1.73
+Efrain,Zymobiomics,Raton,Heces,H6,54,1.85,1.85
+Efrain,Zymobiomics,Raton,Heces,H7,35,1.59,1.23
+Efrain,Zymobiomics,Raton,Heces,H8,102,1.82,1.93
+Efrain,Zymobiomics,Raton,Heces,H9,62,1.82,1.83
+Efrain,Zymobiomics,Raton,Heces,H10,80,1.84,2.03
+Efrain,Zymobiomics,Raton,Heces,H11,44,1.87,1.95
+Efrain,Zymobiomics,Raton,Heces,H12,57,1.91,2.25
+Efrain,Zymobiomics,Raton,Heces,H13,68,1.73,1.71
+Efrain,Zymobiomics,Raton,Heces,H14,35,1.83,1.75
+Efrain,Zymobiomics,Raton,Heces,H15,20,1.78,1.7
+Efrain,Zymobiomics,Raton,Heces,H16,72,1.83,1.84
+Efrain,Zymobiomics,Raton,Colon ,C17,61,1.93,1.82
+Efrain,Zymobiomics,Raton,Colon ,C18,63,1.82,1.73
+Efrain,Zymobiomics,Raton,Colon ,C19,53,1.68,1.55
+Efrain,Zymobiomics,Raton,Colon ,C20,192,2.02,1.82
+Efrain,Zymobiomics,Raton,Colon ,C21,105,1.83,2.06
+Efrain,Zymobiomics,Raton,Colon ,C22,420,2.05,1.48
+Efrain,Zymobiomics,Raton,Colon ,C23,167,1.87,2.2
+Efrain,Zymobiomics,Raton,Colon ,C24,22,1.99,1.86
+Efrain,Zymobiomics,Raton,Colon ,C25,33,1.83,1.53
+Efrain,Zymobiomics,Raton,Colon ,C26,19,1.85,1.18
+Efrain,Zymobiomics,Raton,Colon ,C27,127,1.84,2.09
+Efrain,Zymobiomics,Raton,Colon ,C28,73,1.9,1.81
+Efrain,Zymobiomics,Raton,Colon ,C29,50,1.93,1.78
+Efrain,Zymobiomics,Raton,Colon ,C30,47,1.97,1.12
+Efrain,Zymobiomics,Raton,Colon ,C31,67,1.98,1.9
+Efrain,Zymobiomics,Raton,Colon ,C32,60,1.87,1.7
+Eduardo,Powersoil,Corales,Tejido,7,106,1.7,NA
+Eduardo,Powersoil,Corales,Tejido,13,32.3,1.66,NA
+Eduardo,Powersoil,Corales,Tejido,14,60.6,1.67,NA
+Eduardo,Powersoil,Corales,Tejido,9,109,1.84,NA
+Eduardo,Powersoil,Corales,Tejido,10,81.8,1.71,NA
+Eduardo,Powersoil,Corales,Tejido,8,47.4,1.6,NA
+Eduardo,Powersoil,Corales,Tejido,11,12.4,1.45,NA
+Eduardo,Powersoil,Corales,Tejido,17,17.3,1.42,NA
+Eduardo,Powersoil,Corales,Tejido,16,67.6,1.76,NA
+Eduardo,Powersoil,Corales,Tejido,12,45,1.62,NA
+Anissa,Powersoil,Ajolote,Heces,3,26,1.81,NA
+Anissa,Powersoil,Ajolote,Heces,L3,72.5,1.83,NA
+Anissa,Powersoil,Ajolote,Heces,M3,60.3,1.84,NA
+Anissa,Powersoil,Ajolote,Heces,V,93.55,1.88,NA
+Anissa,Powersoil,Ajolote,Heces,M2,20.7,1.8,NA
+Anissa,Powersoil,Ajolote,Heces,1,23.6,1.84,NA
+Anissa,Powersoil,Ajolote,Heces,2,53.8,1.88,NA
+Anissa,Powersoil,Ajolote,Heces,L1,43.1,1.87,NA
+Anissa,Powersoil,Ajolote,Heces,L2,53.6,1.84,NA
+Anissa,Powersoil,Ajolote,Heces,M1,36.7,1.69,NA
+Anissa,Powersoil,Ajolote,Heces,C3,20.8,1.68,NA
+Anissa,Powersoil,Ajolote,Heces,V1,25.9,1.91,NA
+Anissa,Powersoil,Ajolote,Heces,18,20.4,1.74,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M13,110,1.77,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M15,73,1.77,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M23,125,1.75,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M29,130,1.92,2.3
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M32,116,1.89,2.11
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M33,88,1.89,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M34,54,1.82,1.98
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M37,36,1.86,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M38,141,1.9,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M43,112,1.92,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M45,66,1.83,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M46,128,1.91,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M6,86,1.79,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M16,58,1.85,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M17,69,1.95,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M19,111,1.78,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M25,92,1.89,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M30,135,1.89,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M48,35,1.88,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,M49,40,1.7,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM1,84,1.85,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM2,111,1.9,1.97
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM5,165,1.84,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM8,47,1.78,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM9,95,1.92,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM16,20,1.9,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM17,89,1.92,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM19,92,1.72,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM27,47,1.9,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM38,75,1.8,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM50,39,1.84,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM51,24,1.74,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM6,21,1.95,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM20,133,1.96,2.02
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM21,103,1.93,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM22,147,1.88,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM23,124,1.88,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM28,56,1.75,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM42,116,1.82,NA
+Amapola,Quick DNA Fecal/Soil  Microbiome,Humano,Heces,DM43,97,1.92,1.95
+Diana,Zymobiomics,Tortuga,Huevos,DS1,18,1.78,0.44
+Diana,Zymobiomics,Tortuga,Huevos,DS2,18,1.46,0.57
+Diana,Zymobiomics,Tortuga,Huevos,DH1,21,1.16,0.63
+Diana,Zymobiomics,Tortuga,Huevos,DMA,16,1.95,0.9
+Diana,Zymobiomics,Tortuga,Huevos,DF3,14,1.17,0.19
+Diana,Zymobiomics,Tortuga,Huevos,DO2,20,1.2,0.71
+Diana,Zymobiomics,Tortuga,Huevos,DO1,83,1.2,0.49
+Diana,Zymobiomics,Tortuga,Huevos,DMU,13,1.34,0.17
+Diana,Zymobiomics,Tortuga,Huevos,DA1,28,1.18,0.67
+Diana,Zymobiomics,Tortuga,Huevos,DA2,35,1.18,0.81
+Diana,Zymobiomics,Tortuga,Huevos,DF1,43,1.15,0.36
+Diana,Zymobiomics,Tortuga,Huevos,DF2,29,1.13,0.31
+Diana,Zymobiomics,Tortuga,Huevos,DDE,19,1.17,0.28
+Mario,Powersoil,NA,Agua,0m,20.549,1.86,1.33
+Mario,Powersoil,NA,Agua,5m,25.026,1.89,1.36
+Mario,Powersoil,NA,Agua,10m,16.186,1.67,1.47
+Mario,Powersoil,NA,Agua,15m,16.845,1.76,1.45
+Mario,Powersoil,NA,Agua,20m,18.498,1.56,1.47
+Mario,Powersoil,NA,Agua,23m,19.755,1.55,1.67
+Mario,Powersoil,NA,Agua,Sed,18,1.84,1.45
